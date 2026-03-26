@@ -13,4 +13,7 @@ add_executable(turist Turist.cpp)
 
 add_executable(hotel Hotel.cpp
         Zbor.h
-        Zbor.cpp)
+        Zbor.cpp
+        main_2.cpp)
+
+add_executable(main_2 main_2.cpp)

@@ -15,6 +15,7 @@ Turist::Turist(int varsta, double buget, const char* nume, const char* dest_pref
 Turist::Turist(const Turist& turist) : varsta(turist.varsta), buget(turist.buget) {
     this->nume = new char[strlen(turist.nume) + 1];
     strcpy(this->nume, turist.nume);
+
     this->dest_pref = new char[strlen(turist.dest_pref) + 1];
     strcpy(this->dest_pref, turist.dest_pref);
 

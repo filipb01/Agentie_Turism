@@ -41,8 +41,9 @@ int main() {
     };
     int nr_turisti = 5;
 
-    Hotel hoteluri[5] = {
+    Hotel hoteluri[6] = {
         Hotel(500, 3, "Roma", "Hostel Colosseum"),
+        Hotel(2000, 3, "Roma", "Hostel Potrivit"),
         Hotel(1200, 5, "Paris", "Hotel Eiffel"),
         Hotel(4000, 2, "Maldive", "Luxury Resort"),
         Hotel(3500, 0, "Dubai", "Burj Al Arab"), // SOLD OUT! Capacitate 0.
@@ -50,8 +51,9 @@ int main() {
     };
     int nr_hoteluri = 5;
 
-    Zbor zboruri[5] = {
+    Zbor zboruri[6] = {
         Zbor(150, 50, "Roma", "WizzAir"),
+        Zbor(100, 50, "Roma", "WizzAir"),
         Zbor(300, 20, "Paris", "Air France"),
         Zbor(1500, 5, "Maldive", "Qatar Airways"),
         Zbor(800, 2, "Dubai", "Emirates"),
