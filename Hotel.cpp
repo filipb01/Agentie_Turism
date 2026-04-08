@@ -101,7 +101,7 @@ void Hotel::rezerva_camera(Turist& turist) {
 }//seteaza
 
 void Hotel::rezerva_camera_preferata(Hotel* hoteluri, int n, Turist& turist) {
-    int i = Hotel::gaseste_hotel(hoteluri, n, turist);//gaseste pozitia camerei ideale
+    int i =  gaseste_hotel(hoteluri, n, turist);//gaseste pozitia camerei ideale
     if (i != -1) {//daca o poate rezerva o face
         hoteluri[i].rezerva_camera(turist);
     }

@@ -101,7 +101,7 @@ int Zbor::gaseste_zbor(const Zbor* zboruri, int n, const Turist& turist) {
 }
 
 void Zbor::rezerva_zbor_preferat(Zbor* zboruri, int n, Turist& turist) {
-    int i = Zbor::gaseste_zbor(zboruri, n, turist);
+    int i = gaseste_zbor(zboruri, n, turist);
 
     if (i != -1) {
         zboruri[i].cumpara_zbor(turist);
